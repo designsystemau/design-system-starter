@@ -1,7 +1,11 @@
 {
-	"name": "design-system-starter",
-	"version": "1.1.1",
-	"description": "The Australian Government Design System Starter Pack",
+	"name": "@gold.au/design-system-starter",
+	"private": true,
+	"version": "2.0.0",
+	"description": "The GOLD Design System Starter Pack",
+	"engines": {
+		"node": ">=12"
+	},
 	"scripts": {
 		"build:autoprefix": "postcss docs/css/main.css -u autoprefixer -r",
 		"build:css": "node-sass --output-style compressed \"./src/sass/main.scss\" \"./docs/css/main.css\"",
@@ -16,9 +20,9 @@
 		"url": "https://github.com/govau/design-system-starter.git"
 	},
 	"author": {
-		"name": "Australian Government - Digital Transformation Agency",
-		"email": "designsystem@dta.gov.au",
-		"url": "https://www.dta.gov.au/"
+		"name": "Design System AU",
+		"email": "maintainers@designsystemau.org",
+		"url": "https://designsystemau.org/"
 	},
 	"contributors": [
 		{
@@ -49,36 +53,36 @@
 		"onchange": "^4.1.0"
 	},
 	"dependencies": {
-		"@gov.au/accordion": "latest",
-		"@gov.au/animate": "latest",
-		"@gov.au/body": "latest",
-		"@gov.au/breadcrumbs": "latest",
-		"@gov.au/buttons": "latest",
-		"@gov.au/callout": "latest",
-		"@gov.au/card": "latest",
-		"@gov.au/control-input": "latest",
-		"@gov.au/core": "latest",
-		"@gov.au/cta-link": "latest",
-		"@gov.au/direction-links": "latest",
-		"@gov.au/footer": "latest",
-		"@gov.au/form": "latest",
-		"@gov.au/grid-12": "latest",
-		"@gov.au/header": "latest",
-		"@gov.au/headings": "latest",
-		"@gov.au/inpage-nav": "latest",
-		"@gov.au/keyword-list": "latest",
-		"@gov.au/link-list": "latest",
-		"@gov.au/main-nav": "latest",
-		"@gov.au/page-alerts": "latest",
-		"@gov.au/progress-indicator": "latest",
-		"@gov.au/responsive-media": "latest",
-		"@gov.au/searchbox": "latest",
-		"@gov.au/select": "latest",
-		"@gov.au/side-nav": "latest",
-		"@gov.au/skip-link": "latest",
-		"@gov.au/table": "latest",
-		"@gov.au/tags": "latest",
-		"@gov.au/text-inputs": "latest",
+		"@gold.au/accordion": "latest",
+		"@gold.au/animate": "latest",
+		"@gold.au/body": "latest",
+		"@gold.au/breadcrumbs": "latest",
+		"@gold.au/buttons": "latest",
+		"@gold.au/callout": "latest",
+		"@gold.au/card": "latest",
+		"@gold.au/control-input": "latest",
+		"@gold.au/core": "latest",
+		"@gold.au/cta-link": "latest",
+		"@gold.au/direction-links": "latest",
+		"@gold.au/footer": "latest",
+		"@gold.au/form": "latest",
+		"@gold.au/grid-12": "latest",
+		"@gold.au/header": "latest",
+		"@gold.au/headings": "latest",
+		"@gold.au/inpage-nav": "latest",
+		"@gold.au/keyword-list": "latest",
+		"@gold.au/link-list": "latest",
+		"@gold.au/main-nav": "latest",
+		"@gold.au/page-alerts": "latest",
+		"@gold.au/progress-indicator": "latest",
+		"@gold.au/responsive-media": "latest",
+		"@gold.au/searchbox": "latest",
+		"@gold.au/select": "latest",
+		"@gold.au/side-nav": "latest",
+		"@gold.au/skip-link": "latest",
+		"@gold.au/table": "latest",
+		"@gold.au/tags": "latest",
+		"@gold.au/text-inputs": "latest",
 		"autoprefixer": "^9.0.1",
 		"node-sass": "^4.14.0",
 		"postcss-cli": "^6.0.0"
@@ -87,8 +91,8 @@
 		"auto-save": true,
 		"plugins": true,
 		"ignore": [
-			"@gov.au/pancake-react",
-			"@gov.au/pancake-json"
+			"@gold.au/pancake-react",
+			"@gold.au/pancake-json"
 		],
 		"css": {
 			"minified": true,
