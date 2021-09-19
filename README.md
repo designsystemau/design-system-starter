@@ -1,9 +1,7 @@
-> **The Australian Government Design System has been decommissioned [Visit our community page for more information](https://community.digital.gov.au/t/dta-design-system-has-been-decommissioned/4649)**
-
-Australian Government Design System - Starter
+GOLD Design System - Starter
 ==========================
 
-> Get started with full page templates using the Australian Government Design System.
+> Get started with full page templates using the GOLD Design System.
 
 | Production [![CircleCI](https://circleci.com/gh/govau/design-system-starter/tree/master.svg?style=svg)](https://circleci.com/gh/govau/design-system-starter/tree/master)          | Staging [![CircleCI](https://circleci.com/gh/govau/design-system-starter/tree/develop.svg?style=svg)](https://circleci.com/gh/govau/design-system-starter/tree/develop)                     |
 |-----------------------------|--------------------------------|
@@ -28,7 +26,7 @@ Australian Government Design System - Starter
 ## Templates
 
 
-Browse full page templates using the Australian Government Design System.
+Browse full page templates using the GOLD Design System.
 
 - [Home page](https://design-system-starter.apps.b.cld.gov.au/)
 - [Content page](https://design-system-starter.apps.b.cld.gov.au/content/)
@@ -116,7 +114,7 @@ The `docs` folder in the contains all the files required to publish a website. T
 
 ## Contributing
 
-To contribute to the Australian Government Design System Starter Pack:
+To contribute to the GOLD Design System Starter Pack:
 1. Fork the project & clone it locally.
 1. Create a new branch for the work that is going to be completed.
 1. Complete the work and test it to the best of your abilities following the [guidelines here](https://github.com/govau/uikit#checklist-and-browser-support).

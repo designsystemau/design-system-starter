@@ -1,4 +1,4 @@
-FROM circleci/node:8.12.0
+FROM circleci/node:12.13.1
 
 RUN echo '#!/usr/bin/env bash \n\
 \n\
