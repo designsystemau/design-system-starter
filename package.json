@@ -84,7 +84,7 @@
 		"@gold.au/tags": "latest",
 		"@gold.au/text-inputs": "latest",
 		"autoprefixer": "^9.0.1",
-		"node-sass": "^4.14.0",
+		"node-sass": "^6.0.1",
 		"postcss-cli": "^6.0.0"
 	},
 	"pancake": {
