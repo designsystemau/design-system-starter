@@ -4,7 +4,7 @@
 	"version": "2.0.0",
 	"description": "The GOLD Design System Starter Pack",
 	"engines": {
-		"node": ">=10 <16"
+		"node": ">=10"
 	},
 	"scripts": {
 		"build:autoprefix": "postcss docs/css/main.css -u autoprefixer -r",
@@ -12,7 +12,7 @@
 		"build:css:dev": "node-sass --output-style compact --source-map true src/sass/main.scss docs/css/main.css",
 		"build": "npm run build:css && npm run build:autoprefix",
 		"watch:sass": "onchange \"./src/sass/main.scss\" -- npm run build:css:dev && npm run build:autoprefix",
-		"serve": "browser-sync start --server ./docs -w --files \"./docs/**/*.html\" \"./docs/css/main.css\" \"./docs/js/script.js\"",
+		"serve": "browser-sync start --port 8080 --server ./docs -w --files \"./docs/**/*.html\" \"./docs/css/main.css\" \"./docs/js/script.js\"",
 		"watch": "npm run build && npm-run-all --parallel serve watch:sass"
 	},
 	"repository": {
