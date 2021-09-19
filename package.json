@@ -4,7 +4,7 @@
 	"version": "2.0.0",
 	"description": "The GOLD Design System Starter Pack",
 	"engines": {
-		"node": ">=12 <16"
+		"node": ">=10 <16"
 	},
 	"scripts": {
 		"build:autoprefix": "postcss docs/css/main.css -u autoprefixer -r",
