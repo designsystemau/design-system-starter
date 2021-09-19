@@ -3,10 +3,7 @@ GOLD Design System - Starter
 
 > Get started with full page templates using the GOLD Design System.
 
-| Production [![CircleCI](https://circleci.com/gh/govau/design-system-starter/tree/master.svg?style=svg)](https://circleci.com/gh/govau/design-system-starter/tree/master)          | Staging [![CircleCI](https://circleci.com/gh/govau/design-system-starter/tree/develop.svg?style=svg)](https://circleci.com/gh/govau/design-system-starter/tree/develop)                     |
-|-----------------------------|--------------------------------|
-| https://design-system-starter.apps.b.cld.gov.au/ | https://ds-starter.apps.y.cld.gov.au/ |
-|  | username:`ds`   password:`ds` |
+Demo [https://starter.designsystemau.org/](https://starter.designsystemau.org/)
 
 ## Contents
 
@@ -28,9 +25,9 @@ GOLD Design System - Starter
 
 Browse full page templates using the GOLD Design System.
 
-- [Home page](https://design-system-starter.apps.b.cld.gov.au/)
-- [Content page](https://design-system-starter.apps.b.cld.gov.au/content/)
-- [Form page](https://design-system-starter.apps.b.cld.gov.au/form/)
+- [Home page](https://starter.designsystemau.org/)
+- [Content page](https://starter.designsystemau.org/content/)
+- [Form page](https://starter.designsystemau.org/form/)
 
 
 ## Development environment
@@ -83,7 +80,7 @@ $ docker run --rm --volume="$PWD:/app" -p 3000:3000 -it ds-starter
 
 In your directory you have a `package.json` file. This file points to dependencies to install when running `npm install`. When you run `npm install` you install all of the Design System components and additional packages related to the local development environment.
 
-After `npm install` [Pancake](https://github.com/govau/pancake) is ran, this checks that your dependencies work together and creates the `docs/js/script.min.js` and `src/sass/_uikit.scss`.
+After `npm install` [Pancake](https://github.com/designsystemau/pancake) is ran, this checks that your dependencies work together and creates the `docs/js/script.min.js` and `src/sass/_uikit.scss`.
 
 The `src/sass/main.scss` imports the generated `_uikit.scss`. You shouldn't touch the `_uikit.scss` file as it is generated, but feel free to change the `main.scss` file. 
 
@@ -102,7 +99,7 @@ The `docs` folder in the contains all the files required to publish a website. T
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Prerequisites
-- [`Node.js`](https://nodejs.org) **8 or higher**, preferably the current LTS version.
+- [`Node.js`](https://nodejs.org) **10 or higher**, preferably the current LTS version.
 
 > **NOTE:** If you're developing on Windows, please ensure that [your local `npm` configuration is using a shell that supports UNIX like folder pathing](https://stackoverflow.com/questions/23243353/how-to-set-shell-for-npm-run-scripts-in-windows) ( i.e `a/unix/path`  rather than `a\\windows\\path` ).
 
@@ -125,15 +122,5 @@ To contribute to the GOLD Design System Starter Pack:
 
 **[⬆ back to top](#contents)**
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-## License
-
-Copyright (c) Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the [MIT license](https://raw.githubusercontent.com/govau/design-system-starter/master/LICENSE).
-
-
-**[⬆ back to top](#contents)**
 
 # };
